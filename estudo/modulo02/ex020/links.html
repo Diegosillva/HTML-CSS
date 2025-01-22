@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalizando links</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1:hover {
+      color: blueviolet;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
+    }
+
+    a:visited {
+      color: yellowgreen;
+    }
+
+    a:hover {
+      color: aqua;
+      text-decoration: underline;
+    }
+
+    .especial::after {
+      content: ' #';
+    }
+    .especial::before{
+      content: ' # ';
+    }
+    .especial{
+      background-color: rgb(68, 48, 4);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Personalizando Links</h1>
+  <ul>
+    <li><a href="https://github.com/Diegosillva" target="_blank" class="especial">Github</a></li>
+    <li><a href="https://www.linkedin.com/in/diego-silva-180527202/" target="_blank">Linkedin</a></li>
+  </ul>
+</body>
+
+</html>
