@@ -7,5 +7,61 @@
 }
 
 body {
-  
+  min-height: 100vh;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* text-transform: uppercase; */
+  font-variant: small-caps;
+  padding-top: 50px;
+}
+
+header p {
+  padding-bottom: 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
+  line-height: 2em;
+}
+
+.normal {
+  background-color: lightblue;
+  color: white;
+}
+
+.imagem {
+  background-color: lightseagreen;
+  color: rgb(99, 31, 31);
+}
+
+.imagem>p {
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.423);
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 5px;
 }
